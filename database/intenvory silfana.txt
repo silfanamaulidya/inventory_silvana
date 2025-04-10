@@ -1,0 +1,17 @@
+intenvory silfana
+membuat dtabase:create database db_intenvory_silfana 
+TABLE BARANG:create table barang(
+    id_barang int(4)PRIMARY KEY,
+    nama_barang varchar(10),
+    id_jenis int(6),
+    harga varchar(7),
+    stok int(3)
+    );
+TABLE JENIS:create table jenis(
+       id_jenis int(6)primary key,
+       nama_jenis varchar(9)
+);
+ISI BARANG:insert into barang VALUES
+("102","penghapus","321","rp.1000","2"),("103","pensil","654","rp.1500","3"),("104","penggaris","987","rp.2000","4");
+
+ISI JENIS:insert into jenis VALUES ("321","alattulis"),("654","alattulis"),("987","alattulis");
